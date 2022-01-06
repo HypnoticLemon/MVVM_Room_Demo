@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+
+        <variable
+            name="mainViewModel"
+            type="com.vikrant.simplemvvmroomdemo.viewModel.MainViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- <com.google.android.material.navigation.NavigationView
+             android:id="@+id/nav_view"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_gravity="start"
+             android:alpha="0.8"
+             android:background="@color/colorNavigationDrawer"
+             android:fitsSystemWindows="true"
+             app:headerLayout="@layout/nav_header_main"
+             app:itemBackground="@drawable/drawer_item_bg"
+             app:itemTextColor="@android:color/white"
+             app:menu="@menu/activity_main_drawer" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
